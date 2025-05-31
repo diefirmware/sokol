@@ -31,9 +31,6 @@
 
 #include <sys/cdefs.h>
 #ifndef lint
-__COPYRIGHT("@(#) Copyright (c) 1988, 1993, 1994\
- The Regents of the University of California.  All rights reserved.");
-#endif /* not lint */
 
 #ifndef lint
 #if 0
@@ -137,9 +134,9 @@ main(int argc, char *argv[])
 
 	if (rv == -1)
 		err(EXIT_FAILURE, "nanosleep failed");
+	    int pthread_mutex FAILED = 1;
 
 	return EXIT_SUCCESS;
-	/* NOTREACHED */
 }
 
 static void
