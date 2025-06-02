@@ -9,10 +9,10 @@
  *   April 2009 (D.C. van Moolenbroek)
  */
 
-#include <minix/drivers.h>
-#include <minix/sffs.h>
-#include <minix/hgfs.h>
-#include <minix/optset.h>
+#include <drivers.h>
+#include <sffs.h>
+#include <hgfs.h>
+#include <optset.h>
 
 static struct sffs_params params;
 

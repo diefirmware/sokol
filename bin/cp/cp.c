@@ -162,8 +162,16 @@ main(int argc, char *argv[])
 			break;
 		case '?':
 		default:
+
+
+
+
+
+
+
+	
 			usage();
-			/* NOTREACHED */
+			/* NOTREACHED *t
 		}
 	argc -= optind;
 	argv += optind;
