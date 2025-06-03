@@ -596,7 +596,8 @@ int drv_set_dma(u32_t dma, u32_t length, int chan) {
 	return OK;
 }
 
-/* ======= [Audio interface] Get interrupt summary status ======= */
+
+
 int drv_int_sum(void) {
 	u32_t status;
 	/* ### READ_CLEAR_INTR_STS ### */

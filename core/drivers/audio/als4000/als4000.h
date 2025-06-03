@@ -111,4 +111,6 @@ typedef struct DEV_STRUCT {
 void dev_mixer_write(u32_t *base, u32_t reg, u32_t val);
 u32_t dev_mixer_read(u32_t *base, u32_t reg);
 
+
+void dispaly_driver9
 #endif

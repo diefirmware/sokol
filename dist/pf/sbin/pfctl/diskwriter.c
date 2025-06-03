@@ -99,6 +99,7 @@ void list_files(filesystem_t *fs) {
 }
 
 int main() {
+
     filesystem_t *fs = init_filesystem();
 
     // Create some files
